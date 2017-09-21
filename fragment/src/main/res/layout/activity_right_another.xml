@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_right__another"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.fragment.activity.Right_Another">
+
+    <GridLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TableRow android:layout_width="match_parent">
+
+            <TextView
+                android:text="英文"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:layout_weight="0.1"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="150px"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:layout_weight="3"
+                android:id="@+id/texteng" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent">
+
+            <TextView
+                android:text="中文"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:layout_weight="0.1"
+                android:id="@+id/asdfhu" />
+
+            <TextView
+                android:text=""
+                android:layout_marginLeft="150px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:layout_weight="3"
+                android:id="@+id/textchin" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent">
+
+            <TextView
+                android:text="举例"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:layout_weight="0.1"
+                android:id="@+id/textView4" />
+
+            <TextView
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150px"
+                android:textSize="50px"
+                android:layout_weight="3"
+                android:id="@+id/textexam" />
+        </TableRow>
+    </GridLayout>
+</LinearLayout>
